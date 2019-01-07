@@ -1,0 +1,364 @@
+.navbar{
+	position: relative;
+	height: 80px;
+	background-color: #fff;
+	border:none;
+}
+
+.navbar-brand{
+	margin:0;
+	padding:0;
+	width: 370px;
+	height: 60px;
+	position: absolute;
+    margin-left: 1px!important;
+    top:50%;
+    margin-top:-30px;  
+    
+}
+
+.navbar-brand h1{
+	display: inline-block;
+	margin-left: 22px;
+	font-size: 18px;
+	color: black;
+}
+
+.navbar-brand h1 .companyName{	
+	margin-left: 10px;
+	color: #d5d2d2;
+}
+
+.navbar-brand h1 .sepLine{
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.navbar-brand a img{
+    width: 138px;
+    height: 60px;
+}
+
+.navbar .navRight{
+	border-bottom: 1px solid #e7e7e7;
+	padding: 0;
+
+}
+
+.navbar-nav .rigPad{
+   margin-right: 24px;
+}
+
+.navbar-default #bs-example-navbar-collapse-1{
+	position: relative;
+	width: 549px;
+	top: 18px;
+	right:0px;
+}
+
+.navbar-default #bs-example-navbar-collapse-1 ul li a{
+	font-size: 18px;
+	color: black;
+}
+
+.navbar-default #bs-example-navbar-collapse-1 ul{
+	margin-right: 45px;
+}
+
+.navbar-default .navbar-nav a:focus, .navbar-default .navbar-nav a:hover {
+    color: #3bc7ba!important;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{  
+    background-color: #fff;
+}
+
+ul li .pad:focus{
+	border-bottom: 5px solid #3bc7ba!important;
+}
+
+ul li .pad{
+	padding-bottom: 26px;
+}
+
+.dropdown-menu{
+	/*background-color:#000;
+	filter:alpha(opacity=50);
+	opacity:0.5;*/
+	background-color: rgba(255, 255, 255, 0);
+	box-shadow: none;
+	border: none;
+}
+
+.dropdown-menu li{
+	width: 139px;
+	height: 38px;
+	border-bottom: 1px solid #bbbbbb;
+}
+
+.dropdown-menu li a{
+	padding: 0;
+	height: 100%;
+	line-height: 38px;
+	font-size: 16px!important;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.container{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 590px;
+    left: 0;
+    top:90px;
+    background: url(../imgs/xingji.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position:0px 0px;
+    background-size: 100% 150%;
+    z-index: -1;
+}
+
+.cover{
+   width: 100%;
+   height: 590px;
+   z-index: 1;
+   background-color: rgba(255, 255, 255, .75);
+}
+
+.saySomething{
+   position: relative;
+   width: 60%;
+   left: 149px;
+   top: -370px;
+}
+
+.saySomething p{
+	font-size: 28px;
+}
+
+.saySomething span{
+	display: inline-block;
+	width: 122px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	border:1px solid #3bc7ba;
+	margin-left: 18px;
+	margin-top: 56px;
+	border-radius: 5px;
+}
+
+.saySomething span a {
+	width: 100%
+	height:100%;
+	color: #3bc7ba;
+	font-weight: bold;
+}
+
+/*轮播图部分*/
+.carouselFigure{
+	position: absolute; 
+	width:100%;
+	height:594px;
+	left: 0px;
+	top:735px;
+	text-align: center;
+}
+
+.carouselFigure p,.service p{
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.carouselFigure .shortLine,.service .shortLine{
+	width: 102px;
+	height: 5px;
+	background-color: #3bc7ba;
+	margin: 0 auto;
+}
+
+#myCarousel{
+	position: relative;
+	margin: 0 auto;
+	margin-top: -10px;
+	width: 90%;
+	height: 400px;
+}
+
+.carousel-inner{
+	width: 80%;
+	height: 300px;
+	position: relative;
+    overflow: hidden;
+    left: 130px;
+    top: 52px;
+
+}
+
+.carousel-inner .item,.carousel-inner .item img{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-control.right,.carousel-control.left{
+    background-image: none;
+}
+
+.carousel-control .glyphicon{
+	font-size: 45px;
+	text-shadow: none;
+	color: #eff0ef;
+}
+
+.carousel-control .glyphicon:hover{
+	color: #0b0a0a;
+}
+
+/*服务部分*/
+.service{
+	position: absolute;
+	width: 100%;
+	height: 1043px;
+	left: 0;
+	top: 1200px;
+	text-align: center;
+}
+
+.service .textwrap{
+	width: 1115px;
+	height: 475px;
+	margin: 0 auto;
+	margin-top: 80px;
+	border:1px solid #eff0ef;
+}
+
+.service .textwrap .Point{
+	width: 278px;
+	height: 100%;
+	border-left:1px solid #eff0ef;
+}
+
+.service .textwrap .Point .wrapTit{
+	height: 60px;
+	border-bottom:2px solid #eff0ef; 
+}
+
+.service .textwrap .Point p{
+	font-weight: normal;
+	font-size: 18px;
+	height: 100%;
+	line-height: 60px;
+}
+
+.service .textwrap .Point .descrip{
+	padding-top: 22px;
+}
+
+.service .textwrap .Point .descrip p{
+	width: 245px;
+	height: 100px;
+	margin:0 auto;
+	border:1px solid #3bc7ba;
+	font-size: 16px;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 32px;
+
+}
+
+.service .cmpProf{
+	width: 1115px;
+	height: 280px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+
+.service .cmpProf p{
+	padding-top: 50px;
+	padding-left: 30px;
+    font-size: 16px; 
+    text-align: left;
+    line-height: 25px;
+}
+
+.service .cmpProf span{
+	width: 40px;
+	height: 40px;
+    font-size: 72px; 
+}
+
+.service .cmpProf span:last-child{
+   margin-right: -20px;
+   margin-top: -40px;
+}
+
+.service .cmpProf span:first-child{
+   margin-left: -5px;
+   margin-top: 0px;
+}
+
+footer{
+  position:absolute; 
+  width: 100%;
+  height:350px;
+  left:0;
+  top:2400px; 
+  padding-left: 80px;
+}
+
+footer .aboutUs{
+	width: 801px;
+}
+
+footer .aboutUs .contactUs{
+    color:#b9b9b9;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+footer .aboutUs p{
+	font-size: 16px;
+	line-height: 28px;
+}
+
+footer .aboutUs p span{
+    font-weight: bold;
+}
+
+footer .aboutUs .email{
+	margin-left: 146px;
+	margin-top: 0px;
+}
+
+footer .scanCode{
+	width: 210px;
+	height: 200px;
+	margin-right: 164px;
+	margin-top: -130px;
+}
+
+footer .scanCode img{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 20px;
+}
+
+.longLine{
+	position: absolute;
+	top:2737px;
+	width:100%;
+	height:10px;
+	background: #27c0b2;
+}
+
+
+
