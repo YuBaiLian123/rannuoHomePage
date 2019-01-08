@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <title>然诺主页</title>
+    <title>然诺-中小企业人才招聘服务云平台</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="然诺科技，咨询，招聘流程管理，人才库"/>
+    <meta name="description" content="借助互联网技术，然诺能够为中小企业配置到更加行之有效的人力资源服务实例，速度更快效果更好。借助人工智能算法技术，然诺能够帮助企业降低人才与企业之间的匹配损耗，实现更加精准的匹配。不仅如此，然诺的科技团队始终与服务专家一道，探索人力资源服务场景中的具体问题，并研发创新产品，为人力资源管理技术的创新提供坚实支撑。" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/homePagePublicStyle.css">
     <link rel="stylesheet" href="css/homePageStyle.css">
@@ -21,7 +23,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse fr navRight" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="dropdown rigPad">
+        <li class="dropdown rigPad hover1">
           <a href="#" class="dropdown-toggle pad" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品系列</a>
           <ul class="dropdown-menu">
             <li><a href="#">产品一</a></li>
@@ -30,7 +32,7 @@
             <li><a href="#">更多</a></li>
           </ul>
         </li>
-        <li class="dropdown rigPad">
+        <li class="dropdown rigPad hover2">
           <a href="#" class="dropdown-toggle pad" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">服务支持</a>
           <ul class="dropdown-menu">
             <li><a href="#">招聘流程优化</a></li>
@@ -69,13 +71,25 @@
     <!-- 轮播（Carousel）项目 -->
     <div class="carousel-inner">
         <div class="item active">
-            <img src="imgs/product.png" alt="First slide">
+            <div class="itemContent">
+              <div class="contTit"><span>“优才·人才精细化管理系统”</span></div>
+              <div class="contDet"><p>企业在发展过程中会有持续不断的人才需求，人才的留存与用人标准的建立需要更加可持续进行管理与分析。<br>然诺科技研发的“优才”人才精细化管理系统，帮助企业管理多渠道来源的人才，并在企业与人才的匹配过程中积累企业用人标准化和内部人才画像，从而降低企业面试过程中的损耗。基于算法，“优才”还能够为企业职位智能化匹配服务企业需求的潜在人选，帮助企业持续储备优质人才以实现企业业务发展的有效资源</p></div>
+              <div class="contTips"><span>Talent Database  人岗匹配算法  智能推荐  人才画像</span></div>
+            </div>
         </div>
         <div class="item">
-            <img src="imgs/product.png" alt="Second slide">
+            <div class="itemContent">
+              <div class="contTit"><span>“优才·人才精细化管理系统”</span></div>
+              <div class="contDet"><p>企业在发展过程中会有持续不断的人才需求，人才的留存与用人标准的建立需要更加可持续进行管理与分析。<br>然诺科技研发的“优才”人才精细化管理系统，帮助企业管理多渠道来源的人才，并在企业与人才的匹配过程中积累企业用人标准化和内部人才画像，从而降低企业面试过程中的损耗。基于算法，“优才”还能够为企业职位智能化匹配服务企业需求的潜在人选，帮助企业持续储备优质人才以实现企业业务发展的有效资源</p></div>
+              <div class="contTips"><span>Talent Database  人岗匹配算法  智能推荐  人才画像</span></div>
+            </div>
         </div>
         <div class="item">
-            <img src="imgs/product.png" alt="Third slide">
+            <div class="itemContent">
+              <div class="contTit"><span>“优才·人才精细化管理系统”</span></div>
+              <div class="contDet"><p>企业在发展过程中会有持续不断的人才需求，人才的留存与用人标准的建立需要更加可持续进行管理与分析。<br>然诺科技研发的“优才”人才精细化管理系统，帮助企业管理多渠道来源的人才，并在企业与人才的匹配过程中积累企业用人标准化和内部人才画像，从而降低企业面试过程中的损耗。基于算法，“优才”还能够为企业职位智能化匹配服务企业需求的潜在人选，帮助企业持续储备优质人才以实现企业业务发展的有效资源</p></div>
+              <div class="contTips"><span>Talent Database  人岗匹配算法  智能推荐  人才画像</span></div>
+            </div>
         </div>
     </div>
     <!-- 轮播（Carousel）导航 -->
@@ -162,5 +176,22 @@
 <div class="longLine"></div>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
+<script>
+   (function(){ 
+
+    var showMenu=function(who){
+
+                  $(who).hover(function(){
+                        $(who).addClass("open");
+                      
+                    },function(){
+                        $(who).removeClass("open");
+                  });
+    };
+    showMenu(".hover1");
+    showMenu(".hover2");
+
+   })()
+</script>
 </body>
 </html>

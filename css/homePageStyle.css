@@ -1,25 +1,22 @@
 .navbar{
 	position: relative;
-	height: 80px;
+	height: 88px;
 	background-color: #fff;
 	border:none;
 }
 
 .navbar-brand{
-	margin:0;
-	padding:0;
-	width: 370px;
-	height: 60px;
 	position: absolute;
-    margin-left: 1px!important;
-    top:50%;
-    margin-top:-30px;  
-    
+	margin:0 auto;
+	padding:0;
+	width: 386px;
+	height: 100%;
+    margin-left: 1px!important;   
 }
 
 .navbar-brand h1{
 	display: inline-block;
-	margin-left: 22px;
+	margin-left: 10px;
 	font-size: 18px;
 	color: black;
 }
@@ -34,36 +31,52 @@
 	font-size: 20px;
 }
 
-.navbar-brand a img{
-    width: 138px;
+.navbar-brand a{
+	display: inline-block;
+	width: 140px;
     height: 60px;
+    margin-top: 14px;
+    margin-left: 40px;
+    margin-right: 0px;
 }
 
-.navbar .navRight{
-	border-bottom: 1px solid #e7e7e7;
-	padding: 0;
-
-}
-
-.navbar-nav .rigPad{
-   margin-right: 24px;
+.navbar-brand a img{
+	width: 140px;
+    height: 60px;
 }
 
 .navbar-default #bs-example-navbar-collapse-1{
 	position: relative;
-	width: 549px;
-	top: 18px;
-	right:0px;
+	width: 592px;
+	height: 100%!important;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 0;
 }
+.navbar-default #bs-example-navbar-collapse-1 .navbar-nav{
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-default #bs-example-navbar-collapse-1 .navbar-nav{
+	margin-right: 40px;
+}
+.navbar-default #bs-example-navbar-collapse-1 .navbar-nav li{
+	width: 138px;
+	height: 88px;
+}
+
 
 .navbar-default #bs-example-navbar-collapse-1 ul li a{
+	width: 80px;
+	height: 88px;
+	padding: 0;
 	font-size: 18px;
 	color: black;
+	line-height: 88px;
+	text-align: center;
+
 }
 
-.navbar-default #bs-example-navbar-collapse-1 ul{
-	margin-right: 45px;
-}
 
 .navbar-default .navbar-nav a:focus, .navbar-default .navbar-nav a:hover {
     color: #3bc7ba!important;
@@ -73,8 +86,10 @@
     background-color: #fff;
 }
 
-ul li .pad:focus{
-	border-bottom: 5px solid #3bc7ba!important;
+
+
+ul li .pad:hover{
+	border-bottom: 3px solid #3bc7ba!important;
 }
 
 ul li .pad{
@@ -88,19 +103,24 @@ ul li .pad{
 	background-color: rgba(255, 255, 255, 0);
 	box-shadow: none;
 	border: none;
+	padding: 0;
+	margin-top: 9px;
+	left: 35px;
 }
 
 .dropdown-menu li{
-	width: 139px;
-	height: 38px;
+	width: 138px!important;
+	height: 38px!important;
 	border-bottom: 1px solid #bbbbbb;
 }
 
 .dropdown-menu li a{
-	padding: 0;
-	height: 100%;
-	line-height: 38px;
+	padding: 0!important;
+	width: 100%!important;
+	height: 100%!important;
+	line-height: 38px!important;
 	font-size: 16px!important;
+	text-align: left!important;
 }
 
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
@@ -117,7 +137,7 @@ ul li .pad{
     width: 100%;
     height: 590px;
     left: 0;
-    top:90px;
+    top:94px;
     background: url(../imgs/xingji.jpg);
     background-repeat: no-repeat;
     background-origin: content-box;
@@ -136,8 +156,8 @@ ul li .pad{
 .saySomething{
    position: relative;
    width: 60%;
-   left: 149px;
-   top: -370px;
+   left: 195px;
+   top: -384px;
 }
 
 .saySomething p{
@@ -175,7 +195,6 @@ ul li .pad{
 
 .carouselFigure p,.service p{
 	font-size: 28px;
-	font-weight: bold;
 	margin-bottom: 30px;
 }
 
@@ -196,7 +215,7 @@ ul li .pad{
 
 .carousel-inner{
 	width: 80%;
-	height: 300px;
+	height: 365px;
 	position: relative;
     overflow: hidden;
     left: 130px;
@@ -209,6 +228,39 @@ ul li .pad{
 	height: 100%;
 }
 
+.carousel-inner .item .itemContent{
+	border:2px solid #eff0ef;
+	box-shadow: 1px 1px 2px #c1c1c1;
+}
+
+.carousel-inner .item .itemContent .contTit{
+	width: 350px;
+	font-size: 28px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.carousel-inner .item .itemContent .contDet{
+	margin-left: 20px;
+	margin-top: 65px;
+}
+
+.carousel-inner .item .itemContent .contDet p{
+	font-size: 16px;
+	text-align: left;
+	line-height: 28px;
+	color: #6a6969;
+}
+
+.carousel-inner .item .itemContent .contTips{
+	width: 350px;
+	margin-bottom: 40px;
+}
+
+.carousel-inner .item .itemContent .contTips span{
+	font-size: 14px;
+	font-weight: bold;
+}
 .carousel-control.right,.carousel-control.left{
     background-image: none;
 }
@@ -229,20 +281,21 @@ ul li .pad{
 	width: 100%;
 	height: 1043px;
 	left: 0;
-	top: 1200px;
+	top: 1330px;
 	text-align: center;
 }
 
 .service .textwrap{
-	width: 1115px;
+	width: 970px;
 	height: 475px;
 	margin: 0 auto;
 	margin-top: 80px;
+	margin-left: 197px;
 	border:1px solid #eff0ef;
 }
 
 .service .textwrap .Point{
-	width: 278px;
+	width: 234px;
 	height: 100%;
 	border-left:1px solid #eff0ef;
 }
@@ -264,10 +317,9 @@ ul li .pad{
 }
 
 .service .textwrap .Point .descrip p{
-	width: 245px;
+	width: 210px;
 	height: 100px;
 	margin:0 auto;
-	border:1px solid #3bc7ba;
 	font-size: 16px;
 	text-align: left;
 	padding-left: 10px;
@@ -276,15 +328,16 @@ ul li .pad{
 }
 
 .service .cmpProf{
-	width: 1115px;
+	width: 938px;
 	height: 280px;
 	margin: 0 auto;
 	margin-top: 120px;
 }
 
 .service .cmpProf p{
+	width: 868px;
 	padding-top: 50px;
-	padding-left: 30px;
+	margin-left: 24px;
     font-size: 16px; 
     text-align: left;
     line-height: 25px;
@@ -297,8 +350,8 @@ ul li .pad{
 }
 
 .service .cmpProf span:last-child{
-   margin-right: -20px;
-   margin-top: -40px;
+   margin-right: 0px;
+   margin-top: -30px;
 }
 
 .service .cmpProf span:first-child{
@@ -310,9 +363,9 @@ footer{
   position:absolute; 
   width: 100%;
   height:350px;
-  left:0;
-  top:2400px; 
-  padding-left: 80px;
+  left:0px;
+  top:2500px; 
+  padding-left: 156px;
 }
 
 footer .aboutUs{
@@ -322,7 +375,7 @@ footer .aboutUs{
 footer .aboutUs .contactUs{
     color:#b9b9b9;
     font-size: 14px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 footer .aboutUs p{
@@ -340,10 +393,10 @@ footer .aboutUs .email{
 }
 
 footer .scanCode{
-	width: 210px;
-	height: 200px;
-	margin-right: 164px;
-	margin-top: -130px;
+    width: 125px;
+    height: 125px;
+    margin-right: 188px;
+    margin-top: -143px;
 }
 
 footer .scanCode img{
@@ -351,10 +404,15 @@ footer .scanCode img{
 	height: 100%;
 	margin-bottom: 20px;
 }
+footer .scanCode span{
+    display: inline-block;
+    width: 177%;
+    margin-left:-42px; 
+}
 
 .longLine{
 	position: absolute;
-	top:2737px;
+	top:2836px;
 	width:100%;
 	height:10px;
 	background: #27c0b2;
