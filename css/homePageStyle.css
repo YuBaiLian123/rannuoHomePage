@@ -209,7 +209,7 @@ ul li .pad{
 	position: relative;
 	margin: 0 auto;
 	margin-top: -10px;
-	width: 90%;
+	width: 100%;
 	height: 400px;
 }
 
@@ -218,7 +218,7 @@ ul li .pad{
 	height: 365px;
 	position: relative;
     overflow: hidden;
-    left: 130px;
+    left: 143px;
     top: 52px;
 
 }
@@ -365,7 +365,7 @@ footer{
   height:350px;
   left:0px;
   top:2500px; 
-  padding-left: 156px;
+  padding-left: 140px;
 }
 
 footer .aboutUs{
@@ -388,14 +388,15 @@ footer .aboutUs p span{
 }
 
 footer .aboutUs .email{
-	margin-left: 146px;
-	margin-top: 0px;
+    position: relative;
+    left: -158px;
+
 }
 
 footer .scanCode{
     width: 125px;
     height: 125px;
-    margin-right: 188px;
+    margin-right: 260px;
     margin-top: -143px;
 }
 
