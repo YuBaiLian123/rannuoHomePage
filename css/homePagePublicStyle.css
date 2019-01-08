@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+  margin: 0;
+  padding: 0;
+}
 .fl{
 	float: left;
 }
@@ -15,4 +19,10 @@
   content: " ";
   clear: both;
   height: 0;
+}
+.wrap{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  border:1px solid red;
 }

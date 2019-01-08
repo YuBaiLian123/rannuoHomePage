@@ -218,7 +218,7 @@ ul li .pad{
 	height: 365px;
 	position: relative;
     overflow: hidden;
-    left: 143px;
+    left: 10.6%;
     top: 52px;
 
 }
@@ -286,16 +286,16 @@ ul li .pad{
 }
 
 .service .textwrap{
-	width: 970px;
+	width: 1080px;
 	height: 475px;
 	margin: 0 auto;
 	margin-top: 80px;
-	margin-left: 197px;
+	margin-left: 143px;
 	border:1px solid #eff0ef;
 }
 
 .service .textwrap .Point{
-	width: 234px;
+	width: 25%;
 	height: 100%;
 	border-left:1px solid #eff0ef;
 }
